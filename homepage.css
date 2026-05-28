@@ -1,0 +1,127 @@
+p{
+    color: rgb(14, 9, 1);
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    
+}
+.divi{
+  border: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto; 
+  gap: 10px;
+  width: 700px;
+  align-items: center;
+  margin-left: 300px;
+}
+body{
+   background-image: url("hotel.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
+}
+.welcom h1{
+    margin-left: 150px;
+   
+}
+.welcom{
+    margin-left: 50px;
+    width: 900px;
+    border-radius: 2px;
+    border: 0;
+}
+.table{
+  width:900px;                 
+  border-collapse: separate;  
+  margin: 20px;              
+  font-family: sans-serif; 
+}
+.menu-title{
+    margin-left: 200px;
+}
+a{
+    color: rgb(223, 71, 71);
+}
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('https://unsplash.com') no-repeat center center/cover;
+}
+
+.content-box {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #1a1a1a;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn {
+    display: block;
+    padding: 15px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.btn-menu {
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #333;
+}
+
+.btn-menu:hover {
+    background-color: transparent;
+    color: #333;
+}
+
+.btn-booking {
+    background-color: #d4af37;
+    color: #fff;
+    border: 2px solid #d4af37;
+}
+
+.btn-booking:hover {
+    background-color: transparent;
+    color: #d4af37;
+}
+@media (min-width: 480px) {
+    .button-group {
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .btn {
+        flex: 1;
+    }
+}
