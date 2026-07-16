@@ -130,3 +130,12 @@ textarea {
         gap: 20px;
     }
 }
+
+ .btn-back {
+    text-align: center;
+    text-decoration: none;
+    color: #fa8989;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
